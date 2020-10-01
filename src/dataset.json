@@ -1,0 +1,69 @@
+
+{
+    "init": {
+        "answers": [
+            {"content": "仕事を依頼したい", "nextId": "job_offer"},
+            {"content": "あなたの事が知りたい", "nextId": "community"},
+            {"content": "お話しがしたい", "nextId": "dating"}
+        ],
+        "question": "こんにちは！"
+    },
+    "job_offer": {
+        "answers": [
+            {"content": "Webサイトを制作してほしい", "nextId": "website"},
+            {"content": "Webアプリを開発してほしい", "nextId": "webapp"},
+            {"content": "自動化ツールを作ってほしい", "nextId": "automation_tool"},
+            {"content": "その他", "nextId": "other_jobs"}
+        ],
+        "question": "どのようなお仕事でしょうか？"
+    },
+    "website": {
+        "answers": [
+            {"content": "問い合わせる", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "Webサイト細作についてですね。コチラからお問い合わせできます。"
+    },
+    "webapp": {
+        "answers": [
+            {"content": "問い合わせる", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "Webアプリ開発についてですね。コチラからお問い合わせできます。"
+    },
+    "automation_tool": {
+        "answers": [
+            {"content": "問い合わせる", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "自動化ツール開発についてですね。コチラからお問い合わせできます。"
+    },
+    "other_jobs": {
+        "answers": [
+            {"content": "問い合わせる", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "その他についてですね。コチラからお問い合わせできます。"
+    },
+
+    "community": {
+        "answers": [
+            {"content": "インスタグラムはこちら", "nextId": "https://www.instagram.com/tokuyama.shouta"},
+            {"content": "Twitterはこちら", "nextId": "https://twitter.com/tststs1031"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "名前は徳山翔太と言います。2020年4月に大阪から上京してきました！年齢は24歳です！前職は製造業の会社に6年勤務していました。IT企業へのチャレンジです！"
+    },
+
+    "dating": {
+        "answers": [
+            {"content": "DMする", "nextId": "https://twitter.com/tststs1031"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "TwitterからDMしてください。"
+    }
+}
+
+
+
+
